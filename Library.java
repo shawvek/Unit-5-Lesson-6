@@ -24,6 +24,16 @@ public class Library
     books[numBooks]=b;
     numBooks++;
   }
+
+  public void increaseSize()
+  {
+    Book[] temp=new Book[2*books.length];
+    for(int i=0;i<books.length;i++)
+    {
+      temp[i]=books[i];
+    }
+    books=temp;
+  }
   public String toString()
   {
     String it="";

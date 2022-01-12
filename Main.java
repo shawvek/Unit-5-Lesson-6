@@ -52,6 +52,11 @@ class Main {
         lib.addBooks(g);
         lib.addBooks(def1);
         lib.addBooks(def2);
+
+        System.out.println("Increasing Size of array");
+        lib.increaseSize();
+        System.out.println(lib);
+
         lib.addBooks(def2);
 
         System.out.println(lib);
